@@ -19,5 +19,7 @@ export const getContentType = (filePath) => {
       return 'image/svg+xml'
     default:
       return 'text/plain'
+    case '.html':
+      return 'text/html'
   }
 }

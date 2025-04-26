@@ -27,10 +27,13 @@ header div.top-header p {
   width: 100%;
   text-align: center;
   margin-top: 10px;
+  
 }
 
 header {
   background-color: #eac926;
+  border: none;
+  
 }
 
 header div.logo,
@@ -46,14 +49,17 @@ header .form {
   align-items: center;
   padding: 2px;
   font-size: 11px;
+  justify-content: flex-end;
 }
 header nav {
   font-size: 12px;
   margin-left: 20px;
+  padding: 10px;
 }
 
 header ul li {
   list-style-type: none;
+  
 }
 
 header ul li a {
